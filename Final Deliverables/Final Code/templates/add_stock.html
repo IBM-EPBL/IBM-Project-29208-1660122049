@@ -92,9 +92,14 @@ div {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0059b3;
+    
   overflow-x: hidden;
   padding-top: 20px;
+}
+.sidenav
+{
+  background-color:#111;
+  font-family: sans-serif;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -102,14 +107,14 @@ div {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: rgb(239, 239, 239);
+  color:white;
   display: block;
   border: none;
-  background: none;
   width: 100%;
   text-align: left;
   cursor: pointer;
   outline: none;
+  
 }
 
 /* On mouse-over */
@@ -130,9 +135,9 @@ div {
     <body style="background-color:white;">    
     <h1 class="mt-5" style="
     text-align: center;
-    color: #fff;
+    color:black;
     font-size: 1.6em;
-    background: #616161;
+    background:beige;
     display: block;
     border-radius: 5px;
     margin-bottom: 0px;
@@ -160,8 +165,8 @@ div {
 
       <label style="width:250px;margin-left:-240px"> Warehouse location:</label> 
       <select class="form-select mb-2"name="warehouse_location" style="width:300px">
-              <option value="Chennai">Chennai</option>
-              <option value="Banglore">Banglore</option>
+              <option value="Chennai">Tirupur</option>
+              <option value="Banglore">Erode</option>
             </select>
       <input class="btn btn-primary" type="submit" name="submit" value="Submit">
       <div>{{msg}}</div>    
