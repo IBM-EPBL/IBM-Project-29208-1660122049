@@ -6,7 +6,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMS | HOME</title>
+    <title>Inventory | HOME</title>
     <meta charset="UTF-8">
         <!-- favicon -->
         <!-- <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
@@ -25,36 +25,52 @@
           *{
             font-family: sans-serif!important;
           }
-        </style>
+          body
+          {
+            background-color:black;
+            color:white;
+          }
+          section
+          {
+            color:black;
+          }
+          /* #focus-first,#focus-second,#focus-third 
+          {
+            background-color: antiquewhite;
+          } */
+        </style>  
 </head>
 <!---->
 <body>
         <!-- bootstrap navbar -->
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-              <a class="main-logo-img mt-3" href="#"><img src="/static/img/imsicon.png" alt="sheep-logo" height="50px" width="180px">
-                <!-- <a class="navbar-brand" href="index.html">JobPortal</a> -->
+              <a class="main-logo-img mt-3" href="#"><img src="logo.png" alt="sheep-logo" height="50px" width="80px">
               </a>
               
-              <div class="row donate-sponsor d-flex flex-row-reverse">
-                <a type="button" class="btn btn-success" id="donate" href="login">LOGIN</a>
-                <a type="button" class="btn btn-warning" id="sponsor" href="register">REGISTER</a>
-                <a type="button" class="btn btn-primary" id="sponsor" href="contact.html">CONTACT US</a>
+              <div class="navbar">
+                <a type="button" class="btn btn-primary" id="donate" href="login">LOGIN</a>&nbsp;&nbsp;&nbsp;
+                <a type="button" class="btn btn-primary" id="sponsor" href="register">REGISTER</a>&nbsp;&nbsp;&nbsp;
+                <a type="button" class="btn btn-primary" id="sponsor" href="contact.html">CONTACT US</a>&nbsp;&nbsp;&nbsp;
               </div>
             </div>
           </nav>
           <!-- navbar ends -->
-
+        <section>
+          <center>
+          <h2 style="color:beige">Inventory Management System For Retailers</h2></center>
+          <br>
+        </section>
         <!-- what we focus on -->
         <section class="our-focus">
             <div class="container">
-              <h2 class="text-center mt-3">ABOUT US</h2>
+              <h2 class="text-center mt-3" style="color:white"><b>ABOUT US</b></h2>
               <div class="row ml-3 mt-3">
                 <div class="col-lg-3 mr-5" id="focus-first">
                   <div class="card" style="width: 19rem;">
                     <!-- <img src="assets/img/home kids.jpg" class="card-img-top" alt="..."> -->
                     <div class="card-body">
-                      <h5 class="card-title">PURPOSE</h5>
+                      <h5 class="card-title"><b>PURPOSE</b></h5>
                       <p class="card-text">An inventory management system is the process by which you track your goods throughout your entire supply chain, from purchasing to production to end sales. It governs how you approach inventory management for your business.</p>
                     </div>
                   </div>
@@ -63,7 +79,7 @@
                   <div class="card" style="width: 20rem;">
                     <!-- <img src="assets/img/friendship day.JPG" class="card-img-top" alt="..."> -->
                     <div class="card-body">
-                      <h5 class="card-title">VISION</h5>
+                      <h5 class="card-title"><b>VISION</b></h5>
                       <p class="card-text">The primary goal of inventory management is to ensure that all kinds of materials are accessible whenever the production department needs them, ensuring that production is not stopped or slowed down due to a lack of resources.</div>
                   </div>
                 </div>
@@ -71,7 +87,7 @@
                   <div class="card" style="width: 20rem;">
                     <!-- <img src="assets/img/health camp.jpg" class="card-img-top" alt="..."> -->
                     <div class="card-body">
-                      <h5 class="card-title">OBJECTIVE</h5>
+                      <h5 class="card-title"><b>OBJECTIVE</b></h5>
                       <p class="card-text"> The main aim of an inventory management system is to keep the stock in such a way that it is neither overstock nor understock. The overstock condition will reduce the other production processes and understock will lead to stoppage of work. The objectives of inventory management are operational and financial.</p>
                     </div>
                   </div>
@@ -79,24 +95,6 @@
               </div>
             </div>
           </section>
-          <!-- focus section ends -->
-
-        <!-- footer starts -->
-          <!-- Site footer -->
-          <footer class="footer">
-            <div class="container mt-5">
-              <div class="row">
-                  <h3>INVENTORY MANAGEMENT SYSTEM FOR RETAILERS</h3>
-                  <p class="text-justify">Inventory Management System is a process of ordering, storing, and using inventories. This stock management includes generating the lead on raw materials, components, and finished products, along-side warehousing, and processing of such items in your company. The available stock of inventories must be physically counted before it is put on the balance sheet.</p>
-                </div>  
-              </div>
-            <hr>
-            
-                
-              </div>
-            </div>
-      </footer>
-       
 
           </body>
 </html>
