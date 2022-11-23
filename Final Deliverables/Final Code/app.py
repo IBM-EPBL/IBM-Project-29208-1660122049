@@ -83,7 +83,7 @@ def registet():
             msg = 'Please fill out the form !'
         if request.method == 'POST':
           msg = 'You have successfully registered! Please login !'
-          sendgridmail(email,msg)
+#          sendgridmail(email,msg)
     return render_template('register.html', msg = msg) 
 
 @app.route('/add_stock',methods=['GET','POST'])
